@@ -203,6 +203,7 @@ const update = (time = 0) => {
 
   draw();
   requestAnimationFrame(update);
+  console.log(arena);
 };
 
 const arena = createMatrix(12, 20);
@@ -235,3 +236,5 @@ const updateScore = () => {
 playerReset();
 updateScore();
 update();
+
+console.log(arena); console.table(arena);
