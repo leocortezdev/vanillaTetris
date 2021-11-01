@@ -211,7 +211,7 @@ console.log(arena);
 
 const player = {
   pos: { x: 0, y: 0 },
-  matrix: createPiece("T"),
+  matrix: null,
   score: 0,
 };
 
